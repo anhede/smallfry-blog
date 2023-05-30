@@ -1,3 +1,3 @@
-baseURL = 'https://anhede.github.io'
+baseURL = 'https://anhede.github.io/smallfry-blog/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
