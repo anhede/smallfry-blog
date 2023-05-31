@@ -1,6 +1,6 @@
 #baseURL = "file:///C:/Users/josef/Desktop/Gamedev/blog/public/"
 #baseURL = "/"
-#baseURL = "https://anhede.github.io/smallfry-blog/"
+baseURL = "https://anhede.github.io/smallfry-blog/"
 
 RelativeURLs=true
 CanonifyURLs=true
