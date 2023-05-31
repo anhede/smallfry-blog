@@ -1,6 +1,6 @@
 #baseURL = "file:///C:/Users/josef/Desktop/Gamedev/blog/public/"
 #baseURL = "/"
-baseURL = "https://anhede.github.io/smallfry-blog/"
+#baseURL = "https://anhede.github.io/smallfry-blog/"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
@@ -8,7 +8,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
 [params]
     brand = "Smallfry Studios"                      # name of your site - appears in the sidebar
-    brand_image = "images/smallfry_logo_transparent_cropped.png"    # path to the image shown in the sidebar
+    brand_image = "/images/smallfry_logo_2_cropped_b_transp.png"    # path to the image shown in the sidebar
     description = "Small team, big imagination. Game studio making one-of-a-kind experiences." # Used as default meta description if not specified in front matter
     dark_mode = false                      # optional - defaults to false
     
@@ -28,7 +28,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+        {Name = "Posts", URL = "/posts/", HasChildren = true, Limit = 5},
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
@@ -46,13 +46,13 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
     # NOTE: If you don't want to use RSS, comment or delete the following lines
     # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
-    rss_icon = true
+    #rss_icon = true
     # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
-    rss_section = "posts"
+    #rss_section = "posts"
 
     # Hex colors for your sidebar.
     sidebar_bg_color = "#202020"            # default is #202020
-    sidebar_img_border_color = "#515151"    # default is #515151
+    #sidebar_img_border_color = "#515151"    # default is #515151
     sidebar_p_color = "#909090"             # default is #909090
     sidebar_h1_color = "#FFF"               # default is #FFF
     sidebar_a_color = "#FFF"                # default is #FFF
