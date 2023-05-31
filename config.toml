@@ -12,7 +12,7 @@ CanonifyURLs=true
 
 [params]
     brand = "Smallfry Studios"                      # name of your site - appears in the sidebar
-    brand_image = "images/smallfry_logo_2_cropped_b_transp.png"    # path to the image shown in the sidebar
+    brand_image = "./images/smallfry_logo_2_cropped_b_transp.png"    # path to the image shown in the sidebar
     description = "Small team, big imagination. Game studio making one-of-a-kind experiences." # Used as default meta description if not specified in front matter
     dark_mode = false                      # optional - defaults to false
     
